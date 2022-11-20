@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Check Array Contains a Value</title>
+</head>
+<body>
+<script>
+const Arr = ['You','Will','Learn','JavaScript'];
+var sam = Arr.includes('Will');
+if (sam)
+{
+document.write("array contains a value");
+}
+else
+{
+document.write("array does not contains a value");
+}
+</script>
+</body>
+</html>
