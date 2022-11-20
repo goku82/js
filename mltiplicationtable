@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiplication Table</title>
+</head>
+<body>
+<h1>Multiplication Table</h1>
+<script>
+var table = 9;
+var length = 10;
+var i = 1;
+document.write("Multiplication table: "+ table);
+for(i=1; i <= length; i++)
+document.write("<br>"+i+" * "+table+" = " +(i * table));
+</script>
+</body><body>
+    </body>
+</body>
+</html>
