@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Compare</title>
+</head>
+<body>
+<script>
+let s1 = prompt("Enter string 1 \n");
+let s2 = prompt("Enter string 2 \n");
+if( s1.toLowerCase() === s2.toLowerCase())
+{
+document.write("String is same\n");
+}
+else
+{
+document.write("String is not same\n");
+}
+</script>
+</body>
+</html>
