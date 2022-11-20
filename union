@@ -1,0 +1,20 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <title>Union</title>
+ </head>
+<body>
+ <script>
+ let a = new Set([1,2,3]);
+ let b = new Set([100,2,1,10]);
+ let unionSet = new Set(a);
+ for (let i of b){
+ unionSet.add(i);
+ }
+ document.write(unionSet);
+</script>
+</body>
+</html>
